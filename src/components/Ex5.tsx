@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { createStore } from "redux";
+import { legacy_createStore as createStore } from "redux";
 const arr : number[] = [];
 function reducer(state = arr, action:any) {
   switch (action.type) {
