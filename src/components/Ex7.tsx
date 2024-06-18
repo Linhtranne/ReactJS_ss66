@@ -18,7 +18,7 @@ const toggleTheme = () => ({
   type: "TOGGLE_THEME",
 });
 
-const Bt7: React.FC = () => {
+const Ex7: React.FC = () => {
   const [isDarkMode, setIsDarkMode] = useState(store.getState().isDarkMode);
 
   useEffect(() => {
@@ -36,7 +36,6 @@ const Bt7: React.FC = () => {
 
   return (
     <div>
-        <h1>bt7</h1>
       <div>
         <label htmlFor="theme-switch">Dark Mode</label>
         <input
