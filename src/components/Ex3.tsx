@@ -28,10 +28,10 @@ function reducer(state = products) {
 
 let store = createStore(reducer);
 
-export default function Bt3() {
+export default function Ex3() {
   return (
     <div>
-      <h1>Bt3</h1>
+
       <table>
         <thead>
           <tr>
