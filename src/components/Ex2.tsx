@@ -35,10 +35,9 @@ function reducer(state = users, action: any) {
 
 const store = createStore(reducer);
 
-export default function Bt2() {
+export default function Ex2() {
   return (
     <div>
-      <h1>Bt2</h1>
       <table>
         <thead>
           <tr>
