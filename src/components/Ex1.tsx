@@ -18,7 +18,7 @@ function reducer(state = userData, action: any) {
 
 const store = createStore((reducer));
 
-export default function Bt1() {
+export default function Ex1() {
   return (
     <div>
       <h1>bt1</h1>
