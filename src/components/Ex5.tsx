@@ -18,7 +18,7 @@ const random = () => ({
   type: "RANDOM",
 });
 
-export default function Bt4() {
+export default function Ex5() {
   const [count, setCount] = useState(store.getState());
 
   store.subscribe(() => {
@@ -27,7 +27,6 @@ export default function Bt4() {
 
   return (
     <div>
-      <h1>Bt5</h1>
       <button onClick={() => store.dispatch(random())}>
         Random Generate Number
       </button>
