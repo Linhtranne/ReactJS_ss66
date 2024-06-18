@@ -49,4 +49,4 @@ const Ex7: React.FC = () => {
     </div>
   );
 };
-export default Bt7;
+export default Ex7;
