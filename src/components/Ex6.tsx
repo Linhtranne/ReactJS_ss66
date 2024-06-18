@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { createStore } from "redux";
+import { legacy_createStore as createStore } from "redux";
 function reducer(state = '1234', action: any) {
   switch (action.type) {
     case "CHANGE":
