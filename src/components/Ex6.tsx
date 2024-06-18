@@ -18,14 +18,13 @@ const change = (payload: string) => ({
 });
 
 
-export default function Bt6() {
+export default function Ex6() {
   const [count, setCount] = useState(store.getState());
   store.subscribe(() => {
     setCount(store.getState());
   });
   return (
     <div>
-      <h1>Bt6</h1>
       <button onClick={() => store.dispatch(change('5678'))}>change</button>
       <p>{count}</p>
     </div>
